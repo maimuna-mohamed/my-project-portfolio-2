@@ -1,8 +1,9 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
     margin: 0;
     padding: 0;
-    background-color: darksalmon;
+    background-color: rgb(235, 230, 229);
     transition:cubic-bezier(59);
 }
 .dark-mode {
@@ -10,16 +11,21 @@ body{
     color: white;
   }
 header{
-    background-color:purple;
+    background-color:cornflowerblue;
     color:black ;
     padding: 1em;
-    animation-direction: alternate;
+    animation-direction:calc(touch-action);
     touch-action: manipulation;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch:extra-expanded;
+    font-display:inherit;
 }
 nav ul{
     list-style: none;
     padding: 0;
     text-align: right;
+
 
 }
 nav ul li{
@@ -60,14 +66,25 @@ form {
     display: flex;
 }
 form lebel,form input,form textarea,form button{
-    margin: 1em 1em;
+    margin: 1em 1em; 
 }
 footer{
-    background-color:blueviolet;
+    background-color:darkolivegreen;
     color: black;
-    text-align: center;
-    padding: 0.5em 0;
+    text-align:center ;
+    padding: 0.5em;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+button submit{
+    button {
+        background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
 }
