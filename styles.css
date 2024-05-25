@@ -5,6 +5,10 @@ body{
     background-color: darksalmon;
     transition:cubic-bezier(59);
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 header{
     background-color:purple;
     color:black ;
