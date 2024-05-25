@@ -1,0 +1,69 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darksalmon;
+    transition:cubic-bezier(59);
+}
+header{
+    background-color:purple;
+    color:black ;
+    padding: 1em;
+    animation-direction: alternate;
+    touch-action: manipulation;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+
+}
+nav ul li{
+    display: inline;
+    margin: 0;
+    padding: 1em;
+}
+nav ul li a{
+  color: lightcyan; 
+  text-decoration: double; 
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 2em;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: auto;
+    text-align: left;
+    border: 1px solid darkslategray;
+}
+th {
+    background-color:gold;
+}
+section{
+    padding: 3em;
+}
+project{
+    margin: 2em 0;
+}
+form {
+    display: flex;
+}
+form lebel,form input,form textarea,form button{
+    margin: 1em 1em;
+}
+footer{
+    background-color:blueviolet;
+    color: black;
+    text-align: center;
+    padding: 0.5em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
