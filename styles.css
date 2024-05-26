@@ -1,13 +1,19 @@
 body{
+    background-image: url(/istockphoto-1202598035-170667a.webp);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style:italic;
     margin: 0;
     padding: 0;
-    background-color: rgb(235, 230, 229);
+    background-color: white;
     transition:cubic-bezier(59);
 }
 img{
     border-radius: 50%;
+    float: right;
 }
 .dark-mode {
     background-color: black;
@@ -18,10 +24,14 @@ header{
     color:black ;
     padding: 1em;
     touch-action: manipulation;
-    font-size:large;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-stretch:extra-expanded;
     font-display:inherit;
+}
+#ABOUT p{
+float: left;
+font-size: large;
 }
 nav ul{
     list-style: none;
@@ -36,6 +46,9 @@ nav ul li{
 nav ul li a{
   color: lightcyan; 
   text-decoration: double; 
+}
+nav ul li a:hover{
+    color:brown;
 }
 main{
     display: grid;
@@ -87,4 +100,3 @@ footer{
     width: 100%;
     bottom: 0;
 }
-
